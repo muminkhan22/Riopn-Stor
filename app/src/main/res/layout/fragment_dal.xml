@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".dalFragment">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/mosur"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="মুসুর ডাল"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:textAlignment="center"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/mug"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="মুগ ডাল"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:textAlignment="center"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/potatoes"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="আলু"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:textAlignment="center"/>
+
+
+
+</LinearLayout>

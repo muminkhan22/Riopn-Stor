@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.ripon_stor.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.ripon_stor.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_teFragment"
+            app:destination="@id/teFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_archeFragment"
+            app:destination="@id/archeFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_chapsFragment"
+            app:destination="@id/chapsFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_aserFragment"
+            app:destination="@id/aserFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_moslaFragment"
+            app:destination="@id/moslaFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_sugerFragment"
+            app:destination="@id/sugerFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_dalFragment"
+            app:destination="@id/dalFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/teFragment"
+        android:name="com.example.ripon_stor.teFragment"
+        android:label="fragment_te"
+        tools:layout="@layout/fragment_te" >
+        <action
+            android:id="@+id/action_teFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/archeFragment"
+        android:name="com.example.ripon_stor.archeFragment"
+        android:label="fragment_arche"
+        tools:layout="@layout/fragment_arche" >
+        <action
+            android:id="@+id/action_archeFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chapsFragment"
+        android:name="com.example.ripon_stor.chapsFragment"
+        android:label="fragment_chaps"
+        tools:layout="@layout/fragment_chaps" >
+        <action
+            android:id="@+id/action_chapsFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aserFragment"
+        android:name="com.example.ripon_stor.aserFragment"
+        android:label="fragment_aser"
+        tools:layout="@layout/fragment_aser" >
+        <action
+            android:id="@+id/action_aserFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dalFragment"
+        android:name="com.example.ripon_stor.dalFragment"
+        android:label="fragment_dal"
+        tools:layout="@layout/fragment_dal" >
+        <action
+            android:id="@+id/action_dalFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/moslaFragment"
+        android:name="com.example.ripon_stor.moslaFragment"
+        android:label="fragment_mosla"
+        tools:layout="@layout/fragment_mosla" >
+        <action
+            android:id="@+id/action_moslaFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sugerFragment"
+        android:name="com.example.ripon_stor.sugerFragment"
+        android:label="fragment_suger"
+        tools:layout="@layout/fragment_suger" >
+        <action
+            android:id="@+id/action_sugerFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+</navigation>

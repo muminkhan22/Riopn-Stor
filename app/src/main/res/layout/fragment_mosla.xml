@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".moslaFragment">
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/mosla"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="মসলা "
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/holud"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" হলুদ"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/morich"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="মরিচ "
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:textAlignment="center"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F0F1"
+    android:orientation="vertical"
+    tools:context=".ListFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="প্রোডাক্ট এর তালিকা..."
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="১.চা / সিগারেট..."
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/arche"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="২.আরসি/কোমল পানি"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    <Button
+        android:id="@+id/aser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="৩.চাটনি / আচার"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    <Button
+        android:id="@+id/chaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="৪.নুডুল/চিপস"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    <Button
+        android:id="@+id/dal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="৫.ডাল--আলু"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    <Button
+        android:id="@+id/mosla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="৬.মসলা / মরিচ / হলুদ"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    <Button
+        android:id="@+id/suger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="৭.চিনি--লবন"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+</LinearLayout>
